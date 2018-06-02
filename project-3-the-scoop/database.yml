@@ -1,0 +1,104 @@
+{
+  "users": {
+    "jp": {
+      "username": "jp",
+      "articleIds": [
+        1
+      ],
+      "commentIds": [
+        1
+      ]
+    },
+    "Bill": {
+      "username": "Bill",
+      "articleIds": [],
+      "commentIds": [
+        2
+      ]
+    },
+    "Bob": {
+      "username": "Bob",
+      "articleIds": [],
+      "commentIds": [
+        3
+      ]
+    }
+  },
+  "articles": {
+    "1": {
+      "id": 1,
+      "title": "Bob",
+      "url": "https://www.amazon.co.uk/We-Are-Legion-Bob-Bobiverse/dp/B01L07YHIC",
+      "username": "jp",
+      "commentIds": [
+        1,
+        2,
+        3
+      ],
+      "upvotedBy": [
+        "jp"
+      ],
+      "downvotedBy": [],
+      "comments": [
+        {
+          "id": 1,
+          "body": "We need more Bobs",
+          "username": "jp",
+          "articleId": 1,
+          "upvotedBy": [
+            "jp",
+            "Bill"
+          ],
+          "downvotedBy": []
+        },
+        {
+          "id": 2,
+          "body": "Damn right we need more Bobs!",
+          "username": "Bill",
+          "articleId": 1,
+          "upvotedBy": [],
+          "downvotedBy": []
+        },
+        {
+          "id": 3,
+          "body": "I am the first!",
+          "username": "Bob",
+          "articleId": 1,
+          "upvotedBy": [],
+          "downvotedBy": []
+        }
+      ]
+    }
+  },
+  "nextArticleId": 2,
+  "comments": {
+    "1": {
+      "id": 1,
+      "body": "We need more Bobs",
+      "username": "jp",
+      "articleId": 1,
+      "upvotedBy": [
+        "jp",
+        "Bill"
+      ],
+      "downvotedBy": []
+    },
+    "2": {
+      "id": 2,
+      "body": "Damn right we need more Bobs!",
+      "username": "Bill",
+      "articleId": 1,
+      "upvotedBy": [],
+      "downvotedBy": []
+    },
+    "3": {
+      "id": 3,
+      "body": "I am the first!",
+      "username": "Bob",
+      "articleId": 1,
+      "upvotedBy": [],
+      "downvotedBy": []
+    }
+  },
+  "nextCommentId": 4
+}
